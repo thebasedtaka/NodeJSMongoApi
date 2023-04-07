@@ -27,7 +27,7 @@ server.listen(8080, () => {
 });
 
 const MONGO_URL =
-  "mongodb+srv://thebasedtaka:thebasedpassword@cluster0.igl9wkb.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://thebasedtaka:PASSWORDHERE@cluster0.igl9wkb.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
